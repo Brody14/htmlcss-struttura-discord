@@ -13,7 +13,7 @@ img {
     max-width: 900px;
 }
 
-#debug section:first-child {
+#debug header section:first-child {
     background-color: #ADD8E6;
 }
 
@@ -48,6 +48,7 @@ header section:last-child {
 
 .row-cols-3 > .col-50 {
     flex-basis: 50%;
+    align-self: center;
 }
 
 header .row-cols-3 {
@@ -59,6 +60,20 @@ header .row-cols-3 {
     align-items: center;
 }
 
-.container-intro {
+#debug [class~='img'] {
+    width: 200px;
+    min-height: 200px;
+    background-color: #1E90FF;
+    border: 1px dashed black;
+}
 
+#debug [class~='text'] {
+    width: 200px;
+    min-height: 200px;
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+}
+
+main .row-cols-2 {
+    justify-content: center;
 }

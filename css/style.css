@@ -85,10 +85,23 @@ main .row-cols-2 {
     flex-basis: 40%;
 }
 
-main section:nth-child(2) {
+
+#debug main section:nth-child(2) {
     background-color: #D3D3D3;
 }
 
 main section:nth-child(2) .row {
     flex-direction: row-reverse;
+}
+
+
+#debug main section:last-child {
+    background-color: #D3D3D3;
+}
+
+#debug main section:last-child .col {
+    width: 900px;
+    min-height: 500px;
+    background-color: #228B22;
+    border: 1px dashed black;
 }

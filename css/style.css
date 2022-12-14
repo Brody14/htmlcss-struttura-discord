@@ -12,3 +12,32 @@ img {
     margin: 0 auto;
     max-width: 900px;
 }
+
+#debug section:first-child {
+    background-color: #ADD8E6;
+}
+
+#debug .container {
+    border: 2px solid red;
+}
+
+#debug [class^='col'] {
+    border: 2px dashed black;
+    background-color: #DAA520;
+}
+
+.row {
+    display: flex;
+}
+
+.row-cols-3 > .col {
+    flex-basis: calc(100% / 3)
+}
+
+.row-cols-3 > .col-50 {
+    flex-basis: 50%;
+}
+
+header .row-cols-3 {
+    padding: 10px 0;
+}

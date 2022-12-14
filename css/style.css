@@ -19,11 +19,23 @@ img {
 
 #debug .container {
     border: 2px solid red;
+    padding: 10px;
 }
 
 #debug [class^='col'] {
     border: 2px dashed black;
     background-color: #DAA520;
+}
+
+header section:last-child {
+    background-color: blue;
+}
+
+#debug .container-intro {
+    width: 700px;
+    min-height: 200px;
+    background-color: #EE82EE;
+    border: 1px dashed black;
 }
 
 .row {
@@ -40,4 +52,13 @@ img {
 
 header .row-cols-3 {
     padding: 10px 0;
+}
+
+.row-intro {
+    justify-content: center;
+    align-items: center;
+}
+
+.container-intro {
+
 }

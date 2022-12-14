@@ -18,7 +18,7 @@ img {
 }
 
 #debug .container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 10px;
 }
 
@@ -111,13 +111,13 @@ main section:nth-child(2) .row {
 }
 
 
-#debug footer .row-cols-2 > .col:first-child {
+#debug footer section:first-child .row-cols-2 > .col:first-child {
     background-color: #F08080;
     min-height: 200px;
     border: 1px dashed black;
 }
 
-footer .row-cols-2 > .col {
+footer section:first-child .row-cols-2 > .col {
     flex-basis: 50%;
 }
 
@@ -131,5 +131,29 @@ footer .row-cols-2 > .col {
     flex-basis: calc(100% / 4);
 }
 
+.line {
+    background-color: grey;
+    height: 1px;
+}
 
+#debug footer section:last-child .row {
+    background-color: #7FFFD4;
+    max-width: 900px;
+    min-height: 50px;
+    
+}
+
+#debug footer section:last-child .row-cols-2 > .col {
+    background-color: #FFB6C1;
+    border: 1px dashed black;
+}
+
+footer section:last-child .row-cols-2 {
+    justify-content: space-between;
+    align-items: center;
+}
+
+[class~='logo-footer'], [class~='button'] {
+    height: 20px;
+}
 

@@ -61,7 +61,6 @@ header .row-cols-3 {
 }
 
 #debug [class~='img'] {
-    width: 200px;
     min-height: 200px;
     background-color: #1E90FF;
     border: 1px dashed black;
@@ -76,4 +75,12 @@ header .row-cols-3 {
 
 main .row-cols-2 {
     justify-content: center;
+}
+
+[class~='img'] {
+    flex-basis: 60%;
+}
+
+[class~='text'] {
+    flex-basis: 40%;
 }

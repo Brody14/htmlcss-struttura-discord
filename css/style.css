@@ -22,7 +22,7 @@ img {
     padding: 10px;
 }
 
-#debug [class^='col'] {
+#debug header [class^='col'] {
     border: 2px dashed black;
     background-color: #DAA520;
 }
@@ -105,3 +105,31 @@ main section:nth-child(2) .row {
     background-color: #228B22;
     border: 1px dashed black;
 }
+
+#debug footer {
+    background-color: #23272A;
+}
+
+
+#debug footer .row-cols-2 > .col:first-child {
+    background-color: #F08080;
+    min-height: 200px;
+    border: 1px dashed black;
+}
+
+footer .row-cols-2 > .col {
+    flex-basis: 50%;
+}
+
+#debug .row-cols-4 > .col {
+    background-color: #20B2AA;
+    min-height: 200px;
+    border: 1px dashed white;
+}
+
+ .row-cols-4 > .col {
+    flex-basis: calc(100% / 4);
+}
+
+
+
